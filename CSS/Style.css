@@ -1,0 +1,882 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+section {
+  margin-top: 20vh;
+}
+
+:root {
+  --green: #2ab564;
+  --red: #f5365c;
+  --teal: #1da1f2;
+}
+
+.wrapperCircle {
+  position: absolute;
+  right: -3%;
+  top: -65%;
+}
+
+.navbarMenu {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  background: transparent;
+  border-radius: 0px;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.PassScroll {
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  background: var(--green);
+  padding: 0 20px;
+  color: #fff;
+}
+
+.PassScroll .logoMenu h5 {
+  color: #fff;
+}
+
+.PassScroll .linkMenu ul li a {
+  color: #fff;
+}
+
+.PassScroll .linkMenu ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 1.5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.PassScroll .linkMenu ul li a:hover::after {
+  width: 100%;
+}
+
+.PassScroll .linkMenu ul li:hover a {
+  color: #fff;
+}
+
+.logoMenu h5 {
+  line-height: 70px;
+  font-size: 22px;
+  margin-left: 0px;
+  opacity: 0;
+  color: #000;
+  transition: 0.5s;
+}
+
+.linkMenu ul {
+  display: flex;
+  margin-right: 35px;
+  line-height: 70px;
+}
+
+.linkMenu ul li {
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.linkMenu ul li a {
+  text-decoration: none;
+  color: #000;
+  z-index: 100;
+  position: relative;
+  transition: 0.5s;
+}
+
+.linkMenu ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 1.5px;
+  background-color: var(--green);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.linkMenu ul li a:hover::after {
+  width: 100%;
+}
+
+.linkMenu ul li:hover a {
+  color: var(--green);
+}
+
+.leftSideHeader h1 {
+  margin-top: 30vh;
+  width: 80%;
+  font-size: 45px;
+}
+
+.leftSideHeader h5 {
+  font-weight: 300;
+}
+
+.wrapperInputType {
+  position: relative;
+  width: 120%;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  z-index: 20;
+}
+
+.wrapperInputType label {
+  position: absolute;
+  top: 50%;
+  font-size: 15px;
+  transform: translateY(-50%);
+  margin-left: 15px;
+  color: gray;
+}
+
+.wrapperInputType input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 15px;
+  color: gray;
+}
+
+.leftSideHeader button {
+  padding: 10px 50px;
+  color: #fff;
+  border-radius: 50px;
+  background: var(--green);
+  border: none;
+  outline: none;
+}
+
+.rightSideHeader {
+  margin-top: 17vh;
+}
+
+.cardVidio {
+  width: 85%;
+  height: 450px;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.cardVidio #Vidio {
+  height: 100%;
+  cursor: pointer;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #vidio {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #vidio {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.rightSectionTwo h3 {
+  width: 100%;
+  font-size: 27px;
+}
+
+.wrapperImpostanContent {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapperImpostanContent::after {
+  content: "";
+  position: absolute;
+  right: -40%;
+  top: 40%;
+  width: 100%;
+  height: 50px;
+  transform: rotate(-60deg);
+  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 2;
+}
+
+.wrapperImpostanContent h4 {
+  color: #fff;
+  background: var(--green);
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 5px 25px;
+}
+
+.wrapperImpostan-FlexThree h1 {
+  text-align: right;
+  font-size: 60px;
+  margin-right: 25px;
+}
+
+.footerSectionTwo h5 {
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+}
+
+.leftSectionTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.CircleOutSide {
+  width: 375px;
+  height: 375px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--green);
+}
+
+.CircleOutSide .imgOutSide {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url(http://localhost/KlinikMelati/img/DokterOperasi.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  background-origin: center;
+  background-repeat: no-repeat;
+}
+
+.CircleOutSide .imgOutSide::after {
+  content: "Tentang Kami";
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 50px;
+  text-align: center;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+}
+
+.CircleOutSide .imgOutSide::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+}
+
+.WrapperSectionThree {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.RightSectionThree {
+  width: 350px;
+}
+
+.LeftSectionThree,
+.LeftSectionThree2 {
+  width: 750px;
+  padding: 10px 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.RightSectionThree .fa-creative-commons-sampling-plus {
+  font-size: 75px;
+  color: var(--green);
+}
+
+.RightSectionThree h1 {
+  color: var(--green);
+  width: 50%;
+  font-size: 50px;
+}
+
+.cardFasilitas {
+  width: 265px;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px 0px rgba(70, 69, 69, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  margin: 0px 15px 15px 15px;
+  background: #fff;
+}
+
+.wrapperRightSectionThree {
+  margin-left: 5vw;
+  margin-top: 10vh;
+}
+
+.imgTopFasilitas img {
+  width: 265px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 25%;
+}
+
+.contentFasilitas {
+  padding: 0 20px;
+}
+
+.contentFasilitas h4 {
+  font-size: 20px;
+}
+
+.contentFasilitas p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+}
+
+.btn-Fasilitas {
+  border-radius: 0;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  color: #fff;
+  background: var(--green);
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.CardLeftSlide,
+.CardRightSlide {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.CardLeftSlide i,
+.CardRightSlide i {
+  font-size: 17px;
+  color: var(--green);
+}
+
+.RightSectionFour h4 {
+  font-size: 28px;
+}
+
+.LeftSectionFour {
+  position: relative;
+  transform: translateX(-3.5vw);
+  width: 650px;
+  height: 650px;
+  background: transparent;
+  border: 1.5px solid var(--green);
+  border-radius: 50%;
+  transition: 0.5s;
+  animation: ellipseRotate 15s ease-in-out infinite;
+}
+
+@keyframes ellipseRotate {
+  0% {
+    transform: translateX(-3.5vw) rotate(-45deg);
+  }
+  100% {
+    transform: translateX(-3.5vw) rotate(-405deg);
+  }
+}
+
+.LeftSectionFour::after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  width: 70%;
+  height: 70%;
+  border: 1.5px solid var(--green);
+}
+
+.LeftSectionFour::before {
+  content: "Spesialis Kami";
+  border-radius: 50%;
+  transition: 0.5s;
+  font-size: 60px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 55%;
+  height: 55%;
+  background: var(--green);
+  animation: Rotate 15s ease-in-out infinite;
+}
+
+@keyframes Rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+.RightSectionFour {
+  margin-top: 20vh;
+}
+
+.RightSectionFour p {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  margin-right: 4vw;
+}
+
+.slideDownSectionFour {
+  overflow: hidden;
+}
+
+.slideDownSectionFour p {
+  margin: 7px;
+  font-size: 13px;
+  padding: 1px 25px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
+.activeSlideFasilitas {
+  background: var(--green);
+  color: #fff;
+}
+
+.iconKimia,
+.iconMedkit {
+  position: absolute;
+  left: 14%;
+  top: 16%;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  z-index: 5;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.iconMedkit {
+  left: 35%;
+  top: -6%;
+}
+
+.iconOrang,
+.iconVirus {
+  position: absolute;
+  background: #fff;
+  z-index: 5;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  bottom: -0.5%;
+  left: 30%;
+}
+
+.iconVirus {
+  width: 70px;
+  height: 70px;
+  left: 8.5%;
+  bottom: 11%;
+}
+
+.iconHati {
+  position: absolute;
+  background: #fff;
+  z-index: 5;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  right: 4%;
+  top: 20%;
+}
+
+.iconDetakJantung,
+.iconSuntikan {
+  position: absolute;
+  background: #fff;
+  z-index: 5;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 105px;
+  height: 105px;
+  right: 0%;
+  bottom: 15%;
+}
+
+.iconSuntikan {
+  width: 70px;
+  height: 70px;
+  right: 11%;
+  bottom: 35%;
+}
+
+.iconKimia i,
+.iconMedkit i,
+.iconOrang i,
+.iconHati i,
+.iconDetakJantung i,
+.iconSuntikan i,
+.iconVirus i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 90px;
+  background: var(--teal);
+  height: 90px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.iconOrang i {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  background: var(--red);
+}
+
+.iconSuntikan i,
+.iconVirus i {
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  background: var(--red);
+}
+
+.iconVirus i {
+  background: var(--green);
+}
+
+.iconHati i,
+.iconDetakJantung i {
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  background: var(--red);
+}
+
+.iconDetakJantung i {
+  width: 95px;
+  height: 95px;
+  background: var(--teal);
+  font-size: 50px;
+}
+
+.iconMedkit i {
+  background: var(--green);
+}
+
+.contentSectionFive ul {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.contentSectionFive ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 10px 20px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.contentSectionFive ul li.activeBgDokter {
+  background: var(--green);
+  color: #fff;
+  transition: 0.5s;
+}
+
+.wrapperCol {
+  overflow-y: hidden;
+}
+
+.CardInfoDokter {
+  margin-top: 1vh;
+  transform: translateY(100px);
+  transition: 0.5s;
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.imgInfoDokter img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-top-left-radius: 0;
+}
+
+.WrappetTopDokter {
+  position: relative;
+}
+
+.WrappetTopDokter::after {
+  content: "";
+  width: 90%;
+  height: 1.5px;
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  position: absolute;
+  left: 5%;
+  bottom: -15px;
+}
+
+.BiodataDokter {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+.BiodataDokter h5,
+.BiodataDokter p {
+  margin-left: 20px;
+}
+
+.BiodataDokter h5 {
+  font-size: 22px;
+}
+
+.BiodataDokter p {
+  color: gray;
+  font-size: 15px;
+}
+
+.WrapperBottomDokter {
+  padding: 0 5%;
+}
+
+.btnDokter button {
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 50px;
+  background: var(--green);
+  border: none;
+  outline: none;
+}
+
+.Penilaian-Dokter {
+  padding-right: 50px;
+}
+
+.Kualitas-Dokter {
+  margin-right: 3.5vw;
+}
+
+.Kualitas-Dokter i,
+.Kualitas-Dokter div,
+.Lama-Bekerja i,
+.Lama-Bekerja div {
+  margin-right: 10px;
+  font-size: 19px;
+  color: gray;
+}
+
+.cardSectionSix {
+  width: 100%;
+  overflow: hidden;
+  padding: 25px 45px;
+  background: #fff;
+  border-radius: 15px;
+  border: 1.5px solid var(--green);
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.cardSectionSix h1 {
+  font-size: 30px;
+}
+
+.cardSectionSix h5 {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: gray;
+}
+
+.btnSectionSix button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background: var(--green);
+  border-radius: 30px;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+.headerSectionSeven h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.ValueKlinik h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.flexFaviable i,
+.flexFaviable div {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.55);
+  margin-right: 15px;
+}
+
+.footer {
+  width: 100%;
+  background: #fff;
+  border-top: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  padding: 10px 0;
+  position: relative;
+}
+
+.footer h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.wrapper-footer label {
+  color: #000;
+  font-family: "Sniglet", cursive;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.info-restaurant-footer h5 {
+  font-weight: 300;
+}
+
+.wrapper-footer .wrapper-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  transition: all 0.5s ease-out;
+  overflow: hidden;
+}
+
+.wrapper-footer .wrapper-icon:nth-child(1):hover .icon {
+  color: #1877f2;
+  background: #1877f2;
+}
+
+.wrapper-footer .wrapper-icon:nth-child(2):hover .icon {
+  color: #1da1f2;
+  background: #1da1f2;
+}
+
+.wrapper-footer .wrapper-icon:nth-child(3):hover .icon {
+  color: #ea4c89;
+  background: #ea4c89;
+}
+
+.wrapper-footer .wrapper-icon .icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+
+.wrapper-footer .wrapper-icon .icon i {
+  color: #000;
+  font-size: 20px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+
+.wrapper-footer .wrapper-icon:hover .icon i {
+  color: #fff;
+}
+
+.wrapper-footer .wrapper-icon:hover {
+  width: 200px;
+}
