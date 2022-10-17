@@ -121,7 +121,7 @@ test.addEventListener("click", function (result) {
   );
 });
 
-function Fun(data) {
+function Fun(data, params="unactiveSlideFasilitas") {
   if (data == 1) {
     return `<div class="d-flex Slide-1" data-id="Slide-1">
                     <p>Reumatologi</p>
@@ -146,17 +146,28 @@ function Fun(data) {
 const WrapperSlide = document.querySelector(".slideDownSectionFour");
 const SlideTogether = document.querySelector(".WrapperSlideDown");
 
-let setAgain;
 let setTransform = 48;
 let AppeFun = 1;
-let RemFun = 1;
-const Slide_1 = document.querySelector(".Slide-1");
-const Slide_2 = document.querySelector(".Slide-2");
-const Slide_3 = document.querySelector(".Slide-3");
+let NumberTransision = 2;
 
-setAgain = setInterval((result) => {
+let InitalTrans = true;
 
-  let setTrue = 1;
+function AddingTransitionCategories(){
+
+  const getClass = document.querySelector(`.Slide-${NumberTransision}`);
+
+  [...getClass.childNodes].forEach((result) => {
+    if(result.nodeName != "#text"){
+      result.classList.add("activeSlideFasilitas")
+    }
+  })
+
+  NumberTransision++
+
+}
+
+setInterval((result) => {
+
   const setNode = SlideTogether.childNodes;
   // SlideTogether.style.transform = `translateY(-${setTransform}px)`;
   setTransform += 48;
@@ -166,23 +177,48 @@ setAgain = setInterval((result) => {
   [...setNode].forEach((result) => {
     if (result.nodeName != "#text") {
       if (DeleteNow == 1) {
-        $(result).remove();
+
+        [...result.childNodes].forEach((child) => {
+          const Parentin = child;
+
+          if(Parentin.nodeName != "#text"){
+            Parentin.classList.remove("activeSlideFasilitas")
+            Parentin.classList.add("unactiveSlideFasilitas")
+          }
+        })
+
+        setTimeout((wait) => {
+          $(result).remove();
+        }, 500);
+
+
+        if(NumberTransision == 4){
+          NumberTransision = 1;
+        }
+
+        AddingTransitionCategories(NumberTransision, InitalTrans);
+
         DeleteNow++;
+
       }
     }
   });
 
-  if (AppeFun == 4) {
-    AppeFun = 1;
-    $(SlideTogether).append(Fun(AppeFun));
+  setTimeout((wait) => {
 
-    AppeFun++;
-  } else {
-    $(SlideTogether).append(Fun(AppeFun));
-    AppeFun++;
-  }
+    if (AppeFun == 4) {
+      AppeFun = 1;
+      $(SlideTogether).append(Fun(AppeFun));
+  
+      AppeFun++;
+    } else {
+      $(SlideTogether).append(Fun(AppeFun));
+      AppeFun++;
+    }
 
-}, 2000);
+  }, 500);
+
+}, 2700);
 
 // $(".WrapperSlideDown2").owlCarousel({
 //     loop: true,

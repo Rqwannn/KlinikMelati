@@ -490,7 +490,15 @@ section {
   pointer-events: none;
 }
 
+.unactiveSlideFasilitas {
+  transition: 0.7s;
+  background: transparent;
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  color: #000;
+}
+
 .activeSlideFasilitas {
+  transition: 0.7s;
   background: var(--green);
   color: #fff;
 }
