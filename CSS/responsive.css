@@ -1,0 +1,225 @@
+/* Mobile */
+
+@media (min-width: 0px) and (max-width: 765px) {
+    .section {
+        margin-top: 5vh;
+    }
+
+    .leftSideHeader h1 {
+        margin-top: 5vh;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .leftSideHeader h5 {
+        font-weight: 300;
+        margin-top: 14px;
+    }
+
+    .wrapperInputType {
+        width: 100%;
+    }
+
+    .dekstop {
+        display: none;
+    }
+      
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+
+    .rightSideHeader {
+        margin-top: 10vh;
+    }
+
+    .rightSideHeader.mobile .cardVidio {
+        width: 100%;
+        height: 200px;
+        border-radius: 14px;
+      }
+
+    .cardVidio #Vidio {
+        width: auto;
+        height: auto;
+    }
+}
+
+/* Tab */
+  
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .section {
+        margin-top: 7vh;
+    }
+
+    .leftSideHeader h1 {
+        margin-top: 5vh;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .leftSideHeader h5 {
+        font-weight: 300;
+        margin-top: 14px;
+    }
+
+    .wrapperInputType {
+        width: 100%;
+    }
+
+    .dekstop {
+        display: none;
+    }
+      
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+
+    .rightSideHeader {
+        margin-top: 10vh;
+    }
+
+    .mobile .rightSideHeader .cardVidio {
+        width: 100%;
+        height: 300px;
+        border-radius: 14px;
+      }
+
+    .cardVidio #Vidio {
+        width: 100%;
+        height: auto;
+    }
+
+    .CircleOutSide {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--green);
+      }
+
+    .wrapperRightSectionThree {
+        margin: 0;
+        margin-bottom: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .RightSectionThree .fa-creative-commons-sampling-plus {
+        font-size: 60px;
+        color: var(--green);
+    }
+      
+    .RightSectionThree h1 {
+        color: var(--green);
+        width: 100%;
+        margin-left: 14px;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .contentSectionFive ul {
+        justify-content: unset;
+        flex-direction: unset;
+    }
+
+    .contentSectionFive ul li {
+        padding: 7px 14px;
+        border-radius: 20px;
+        font-size: 16px;
+      }
+
+    .WrapperDokter{
+        height: auto;
+        overflow-y: scroll;
+    }
+      
+    .imgInfoDokter img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .BiodataDokter {
+        top: 65%;
+      }
+      
+    .BiodataDokter h5,
+    .BiodataDokter p {
+        margin-left: 10px;
+    }
+    
+    .BiodataDokter h5 {
+        font-size: 16px;
+    }
+    
+    .BiodataDokter p {
+        font-size: 12px;
+    }
+
+    .cardSectionSix {
+        padding: 20px;
+      }
+      
+    .cardSectionSix h1 {
+        font-size: 30px;
+    }
+    
+    .cardSectionSix h5 {
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        color: gray;
+    }
+
+    .btnSectionSix{
+        justify-content: start;
+    }
+    
+    .btnSectionSix button {
+        font-size: 14px;
+        margin-top: 14px;
+        border-radius: 20px;
+        padding: 12px 30px;
+    }
+
+    .gmaps iframe{
+        margin-top: 14px;
+        height: 300px;
+    }
+
+    .ValueKlinik h5 {
+        font-size: 18px;
+    }
+      
+    .flexFaviable i,
+    .flexFaviable div {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .linkMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linkMenu ul {
+        display: none;
+    }
+
+    .linkMenu i.fa-solid.fa-bars {
+        display: block;
+        font-size: 16px;
+    }
+}
+
+/* Gaya khusus untuk layar desktop dengan lebar lebih dari 1024 piksel */
+
+@media only screen and (min-width: 1440px) {
+    
+}

@@ -1,18 +1,28 @@
 // clientHeight untuk mengecek dimana data html berada malalui height
 
+// let Ready = skrollr.init();
+
 window.onload = function () {
   this.setTimeout(text, 200);
   this.setTimeout(Title, 200);
 };
 
 window.addEventListener("scroll", function () {
-  const Navbar = document.querySelector(".navbarMenu");
 
+  const Navbar = document.querySelector(".navbarMenu");
   Navbar.classList.toggle("PassScroll", window.scrollY > 0);
+
+  const SlideUp = document.querySelector(".WrapperCircleUp");
+  SlideUp.classList.toggle('SlideUpOpacity', window.scrollY > 0);
 });
 
 function text() {
   const Text = document.querySelectorAll(".linkMenu ul li");
+  const bars = document.querySelector(".linkMenu .fa-bars");
+
+  bars.style.opacity = "1";
+  bars.style.margin = "0px 0px 0px 45px";
+
   let i;
   for (i = 0; i < Text.length; i++) {
     Text[i].style.opacity = "1";
@@ -20,11 +30,21 @@ function text() {
   }
 }
 
+function openMenu(){
+  let listMenu = document.querySelector(".linkMenuMobile");
+  listMenu.style.left = "0px"
+}
+
+function closeMenu(){
+  let listMenu = document.querySelector(".linkMenuMobile");
+  listMenu.style.left = "100vw"
+}
+
 function Title() {
   const Title = document.querySelector(".logoMenu h5");
 
   Title.style.opacity = "1";
-  Title.style.marginLeft = "35px";
+  Title.style.marginLeft = "0";
 }
 
 TweenMax.from(".leftSideHeader h1", 1, {
@@ -146,7 +166,6 @@ function Fun(data, params="unactiveSlideFasilitas") {
 const WrapperSlide = document.querySelector(".slideDownSectionFour");
 const SlideTogether = document.querySelector(".WrapperSlideDown");
 
-let setTransform = 48;
 let AppeFun = 1;
 let NumberTransision = 2;
 
@@ -169,8 +188,6 @@ function AddingTransitionCategories(){
 setInterval((result) => {
 
   const setNode = SlideTogether.childNodes;
-  // SlideTogether.style.transform = `translateY(-${setTransform}px)`;
-  setTransform += 48;
 
   let DeleteNow = 1;
 
@@ -218,7 +235,7 @@ setInterval((result) => {
 
   }, 500);
 
-}, 2700);
+}, 2500);
 
 // $(".WrapperSlideDown2").owlCarousel({
 //     loop: true,
@@ -233,7 +250,7 @@ setInterval((result) => {
 //   });
 
 $(".LeftSectionThree2").owlCarousel({
-  margin: 10,
+  margin: 14,
   loop: true,
   autoWidth: true,
   items: 4,
@@ -245,22 +262,22 @@ function setURL(){
   document.location.href = "Konsultasi/Konsultasi.php";
 }
 
-  (function () {
+  // (function () {
      
-      $('a.page-scroll').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top - 40
-              }, 200);
-              return false;
-            }
-          }
-        });
+  //     $('a.page-scroll').click(function() {
+  //         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  //           var target = $(this.hash);
+  //           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  //           if (target.length) {
+  //             $('html,body').animate({
+  //               scrollTop: target.offset().top - 40
+  //             }, 200);
+  //             return false;
+  //           }
+  //         }
+  //       });
   
-  }());
+  // }());
 
   const getByOne = document.querySelectorAll(".getByOne");
   const WrapperDokter = document.querySelector(".WrapperDokter");
