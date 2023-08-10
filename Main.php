@@ -116,7 +116,7 @@
                                         <h4 class="mb-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Dokter</h4>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 disable-in-mobile">
                                     <div class="wrapperImpostan-FlexThree mb-3">
                                         <h1 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">24</h1>
                                         <h4 class="mb-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Jam</h4>
@@ -454,11 +454,11 @@
                     <h1>Clinic Melati</h1>
 
                     <div class="info-restaurant-footer d-flex justify-content-center">
-                        <h5 style="font-size: 17px;">Jakarta, Indonesia</h5>
-                        <h5 style="margin: 0 10px; font-size: 17px;">|</h5>
-                        <h5 style="font-size: 17px;">+123 456 7891</h5>
-                        <h5 style="margin: 0 10px; font-size: 17px;">|</h5>
-                        <h5 style="font-size: 17px;">Hello@Titan.com</h5>
+                        <h5>Jakarta, Indonesia</h5>
+                        <h5 style="margin: 0 10px;">|</h5>
+                        <h5>+123 456 7891</h5>
+                        <h5 style="margin: 0 10px;">|</h5>
+                        <h5>Hello@Titan.com</h5>
                     </div>
                     <div class="wrapper-footer d-flex justify-content-center mt-3">
                         <div class="wrapper-icon">

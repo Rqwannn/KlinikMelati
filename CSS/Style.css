@@ -402,7 +402,7 @@ body {
 }
 
 .wrapperRightSectionThree {
-  margin-left: 5vw;
+  margin-left: 0;
   margin-top: 10vh;
 }
 
@@ -946,6 +946,7 @@ body {
 
 .info-restaurant-footer h5 {
   font-weight: 300;
+  font-size: 17px;
 }
 
 .wrapper-footer .wrapper-icon {

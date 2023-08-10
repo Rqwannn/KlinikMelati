@@ -5,19 +5,50 @@
         margin-top: 5vh;
     }
 
+    .disable-in-mobile{
+        display: none;
+    }
+
+    .navbarMenu {
+        padding: 0 20px;
+    }
+
+    .linkMenuMobile ul li{
+        font-size: 20px;
+      }
+
+    .logoMenu h5 {
+        font-size: 16px;
+    }
+
     .leftSideHeader h1 {
         margin-top: 5vh;
-        font-size: 30px;
+        font-size: 20px;
         width: 100%;
     }
 
     .leftSideHeader h5 {
         font-weight: 300;
         margin-top: 14px;
+        font-size: 15px;
     }
 
     .wrapperInputType {
         width: 100%;
+        padding: 7px 14px;
+    }
+    
+    .wrapperInputType label {
+        font-size: 12px;
+    }
+    
+    .wrapperInputType input {
+        padding: 12px;
+    }
+    
+    .leftSideHeader button {
+        padding: 7px 40px;
+        font-size: 12px;
     }
 
     .dekstop {
@@ -33,7 +64,7 @@
         margin-top: 10vh;
     }
 
-    .rightSideHeader.mobile .cardVidio {
+    .mobile .rightSideHeader .cardVidio {
         width: 100%;
         height: 200px;
         border-radius: 14px;
@@ -43,6 +74,233 @@
         width: auto;
         height: auto;
     }
+
+    .rightSectionTwo h3 {
+        font-size: 20px;
+    }
+          
+    .wrapperImpostanContent::after {
+        content: "";
+        position: absolute;
+        right: -45%;
+        top: 40%;
+        width: 100%;
+        height: 40px;
+        transform: rotate(-60deg);
+        border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+        background: #fff;
+        z-index: 2;
+    }
+    
+    .wrapperImpostanContent h4 {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    .footerSectionTwo h5 {
+        font-size: 16px;
+    }
+
+    .RightSectionThree .fa-creative-commons-sampling-plus {
+        font-size: 50px;
+        color: var(--green);
+    }
+
+    .wrapperRightSectionThree {
+        margin: 0;
+        margin-bottom: 21px;
+        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .RightSectionThree h1 {
+        color: var(--green);
+        width: 100%;
+        margin-left: 14px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .cardFasilitas {
+        width: 220px;
+    }
+      
+    .imgTopFasilitas img {
+        width: 220px;
+    }
+    
+    .contentFasilitas {
+        padding: 0 15px;
+    }
+    
+    .contentFasilitas h4 {
+        font-size: 18px;
+    }
+    
+    .contentFasilitas p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .btn-Fasilitas {
+        font-size: 12px;
+    }
+
+    .headerSectionFive h1{
+        font-size: 20px;
+    }
+
+    .contentSectionFive{
+        overflow-y: scroll;
+        margin-bottom: 14px;
+    }
+
+    .contentSectionFive::-webkit-scrollbar {
+        height: 2px;
+    }
+    
+    .contentSectionFive::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 10px;
+    }
+    
+    .contentSectionFive::-webkit-scrollbar-thumb {
+        background: var(--green);
+        border-radius: 10px;
+    }
+
+    .contentSectionFive ul {
+        justify-content: unset;
+        flex-direction: unset;
+        margin-bottom: 0;
+    }
+
+    .contentSectionFive ul li {
+        padding: 0px 14px;
+        border-radius: 20px;
+        font-size: 14px;
+      }
+
+    .WrapperDokter{
+        height: auto;
+        overflow-y: scroll;
+    }
+      
+    .imgInfoDokter img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .BiodataDokter {
+        top: 65%;
+      }
+      
+    .BiodataDokter h5,
+    .BiodataDokter p {
+        margin-left: 10px;
+    }
+    
+    .BiodataDokter h5 {
+        font-size: 16px;
+    }
+    
+    .BiodataDokter p {
+        font-size: 12px;
+    }
+
+    .cardSectionSix {
+        padding: 20px;
+      }
+      
+    .cardSectionSix h1 {
+        font-size: 20px;
+    }
+    
+    .cardSectionSix h5 {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .btnSectionSix{
+        justify-content: start;
+    }
+    
+    .btnSectionSix button {
+        font-size: 12px;
+        margin-top: 14px;
+        padding: 10px 15px;
+    }
+
+    .headerSectionSeven h1{
+        font-size: 20px;
+    }
+
+    .gmaps iframe{
+        margin-top: 14px;
+        height: 200px;
+    }
+
+    .ValueKlinik h5 {
+        font-size: 18px;
+    }
+      
+    .flexFaviable i,
+    .flexFaviable div {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .linkMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linkMenu ul {
+        display: none;
+    }
+
+    .linkMenu i.fa-solid.fa-bars {
+        display: block;
+        font-size: 16px;
+    }
+    
+    .footer h1 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    
+    .wrapper-footer label {
+        font-size: 12px;
+    }
+    
+    .info-restaurant-footer h5 {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    
+    .wrapper-footer .wrapper-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .wrapper-footer .wrapper-icon .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .wrapper-footer .wrapper-icon .icon i {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .wrapper-footer .wrapper-icon:hover {
+        width: 150px;
+    }
+      
 }
 
 /* Tab */
@@ -90,16 +348,6 @@
         width: 100%;
         height: auto;
     }
-
-    .CircleOutSide {
-        width: 275px;
-        height: 275px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid var(--green);
-      }
 
     .wrapperRightSectionThree {
         margin: 0;
@@ -169,11 +417,7 @@
     }
     
     .cardSectionSix h5 {
-        font-weight: 300;
         font-size: 14px;
-        letter-spacing: 1px;
-        line-height: 28px;
-        color: gray;
     }
 
     .btnSectionSix{
@@ -183,8 +427,6 @@
     .btnSectionSix button {
         font-size: 14px;
         margin-top: 14px;
-        border-radius: 20px;
-        padding: 12px 30px;
     }
 
     .gmaps iframe{
