@@ -15,6 +15,53 @@ body {
   --teal: #1da1f2;
 }
 
+.transisi-delay-1 {
+  transition-delay: 0.1s;
+}
+
+.transisi-delay-2 {
+  transition-delay: 0.2s;
+}
+
+.transisi-delay-3 {
+  transition-delay: 0.3s;
+}
+
+.transisi-delay-4 {
+  transition-delay: 0.4s;
+}
+
+.transisi-delay-5 {
+  transition-delay: 0.5s;
+}
+
+.animasi-y,
+.animasi-x,
+.animasi-minus-x  {
+  position: relative;
+  opacity: 0;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+}
+
+.animasi-y{
+  transform: translateY(150px);
+}
+
+.animasi-x{
+  transform: translateX(150px);
+}
+
+.animasi-minus-x{
+  transform: translateX(-150px);
+}
+
+.tampil {
+  position: relative;
+  transform: translate(0px);
+  opacity: 1;
+}
+
 .wrapperCircle {
   position: absolute;
   right: -3%;
@@ -402,7 +449,7 @@ body {
 }
 
 .wrapperRightSectionThree {
-  margin-left: 0;
+  margin-left: 5vw;
   margin-top: 10vh;
 }
 

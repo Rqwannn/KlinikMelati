@@ -101,31 +101,31 @@
 
                 <div class="col-sm-12 col-sm-6 col-lg-6 modify-section-two">
                     <div class="rightSectionTwo">
-                        <h3 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Kunjungi kami kapan saja untuk diagnosa dan perawatan dengan klinik online 24/7 kami.</h3>
+                        <h3 class="animasi-x">Kunjungi kami kapan saja untuk diagnosa dan perawatan dengan klinik online 24/7 kami.</h3>
                         <div class="contentSectionTwo mt-5">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="wrapperImpostanContent mb-3">
-                                        <h2 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">+200</h2>
-                                        <h4 class="mb-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Klink</h4>
+                                        <h2 class="animasi-x">+200</h2>
+                                        <h4 class="mb-4 animasi-x">Klink</h4>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="wrapperImpostanContent mb-3">
-                                        <h2 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">+30</h2>
-                                        <h4 class="mb-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Dokter</h4>
+                                        <h2 class="animasi-x">+30</h2>
+                                        <h4 class="mb-4 animasi-x">Dokter</h4>
                                     </div>
                                 </div>
                                 <div class="col-md-4 disable-in-mobile">
                                     <div class="wrapperImpostan-FlexThree mb-3">
-                                        <h1 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">24</h1>
-                                        <h4 class="mb-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Jam</h4>
+                                        <h1 class="animasi-x">24</h1>
+                                        <h4 class="mb-4 animasi-x">Jam</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="footerSectionTwo mt-4">
-                            <h5 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Hemat waktu dan uang. Terima perawatan berkualitas, setiap saat</h5>
+                            <h5 class="animasi-x">Hemat waktu dan uang. Terima perawatan berkualitas, setiap saat</h5>
                         </div>
                     </div>
                 </div>
@@ -139,8 +139,8 @@
 
             <div class="RightSectionThree mobile">
                 <div class="wrapperRightSectionThree">
-                    <i data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)" class="fab fa-creative-commons-sampling-plus"></i>
-                    <h1 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Fasilitas Kami</h1>
+                    <i class="fab fa-creative-commons-sampling-plus animasi-x"></i>
+                    <h1 class="animasi-x transisi-delay-1">Fasilitas Kami</h1>
                 </div>
             </div>
 
@@ -202,8 +202,8 @@
             
             <div class="RightSectionThree dekstop">
                 <div class="wrapperRightSectionThree">
-                    <i data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)" class="fab fa-creative-commons-sampling-plus mb-4"></i>
-                    <h1 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Fasilitas Kami</h1>
+                    <i class="fab fa-creative-commons-sampling-plus animasi-x mb-4"></i>
+                    <h1 class="animasi-x transisi-delay-1">Fasilitas Kami</h1>
                 </div>
             </div>
 
@@ -240,8 +240,8 @@
             </div>
             <div class="col-md-6">
                 <div class="RightSectionFour">
-                    <h4 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Para dokter di Online Clinic semuanya terdaftar di dewan medis umum.</h4>
-                    <p class="mt-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <h4 class="animasi-x">Para dokter di Online Clinic semuanya terdaftar di dewan medis umum.</h4>
+                    <p class="animasi-x mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <div class="slideDownSectionFour mt-4">
@@ -302,13 +302,13 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-8">
-                                    <h1 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(-150px)">Siap Memulai ?</h1>
-                                    <h5 class="mt-4" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(-150px)">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    <h1 class="animasi-minus-x">Siap Memulai ?</h1>
+                                    <h5 class="animasi-minus-x transisi-delay-1 mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-4 btnSectionSix">
-                                    <div class="btnSectionSix" data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(150px)">
+                                    <div class="btnSectionSix animasi-x">
                                         <button type="submit" class="btn" onclick="setURL()">Buat Janji Sekarang !</button>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="headerSectionSeven">
-                        <h1 data-center="opacity:1;transform:translateX(0)" data-bottom="opacity:0;transform:translateX(-150px)">Klinik Kami</h1>
+                        <h1 class="animasi-minus-x">Klinik Kami</h1>
                     </div>
                 </div>
 
@@ -339,96 +339,96 @@
 
                     <div class="row">
                         <div class="ValueKlinik col-sm-6 col-md-6 col-lg-12 mb-5">
-                            <h5 class="mb-3">Klinik Pusat</h5>
+                            <h5 class="animasi-minus-x mb-3">Klinik Pusat</h5>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <div>+123 456 7891</div>
+                                        <i class="fas fa-phone-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">+123 456 7891</div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-envelope"></i>
-                                        <div>Hello@Titan.com</div>
+                                        <i class="fas fa-envelope animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Hello@Titan.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <div>Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <i class="fas fa-map-marker-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="ValueKlinik col-sm-6 col-md-6 col-lg-12 mb-5">
-                            <h5 class="mb-3">Klinik Gigi</h5>
+                            <h5 class="mb-3 animasi-minus-x">Klinik Gigi</h5>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <div>+123 456 7891</div>
+                                        <i class="fas fa-phone-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">+123 456 7891</div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-envelope"></i>
-                                        <div>Hello@Titan.com</div>
+                                        <i class="fas fa-envelope animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Hello@Titan.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <div>Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <i class="fas fa-map-marker-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="ValueKlinik col-sm-6 col-md-6 col-lg-12 mb-5">
-                            <h5 class="mb-3">Perawatan Ibu Dan Bayi</h5>
+                            <h5 class="mb-3 animasi-minus-x">Perawatan Ibu Dan Bayi</h5>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <div>+123 456 7891</div>
+                                        <i class="fas fa-phone-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">+123 456 7891</div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-envelope"></i>
-                                        <div>Hello@Titan.com</div>
+                                        <i class="fas fa-envelope animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Hello@Titan.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <div>Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <i class="fas fa-map-marker-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="ValueKlinik col-sm-6 col-md-6 col-lg-12 mb-5">
-                            <h5 class="mb-3">Klinik Orthopedic</h5>
+                            <h5 class="mb-3 animasi-minus-x">Klinik Orthopedic</h5>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <div>+123 456 7891</div>
+                                        <i class="fas fa-phone-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">+123 456 7891</div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
-                                        <i class="fas fa-envelope"></i>
-                                        <div>Hello@Titan.com</div>
+                                        <i class="fas fa-envelope animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Hello@Titan.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <div>Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <i class="fas fa-map-marker-alt animasi-minus-x"></i>
+                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
                                     </div>
                                 </div>
                             </div>
@@ -487,7 +487,7 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="JS/TweenMax.min.js"></script>
-    <script src="JS/skrollr.js"></script>
+    <!-- <script src="JS/skrollr.js"></script> -->
     <script src="JS/owl.carousel.min.js"></script>
     <script src="JS/bootstrap.js"></script>
     <script type="text/javascript">

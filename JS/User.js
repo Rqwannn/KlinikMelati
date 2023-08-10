@@ -7,15 +7,6 @@ window.onload = function () {
   this.setTimeout(Title, 200);
 };
 
-window.addEventListener("scroll", function () {
-
-  const Navbar = document.querySelector(".navbarMenu");
-  Navbar.classList.toggle("PassScroll", window.scrollY > 0);
-
-  const SlideUp = document.querySelector(".WrapperCircleUp");
-  SlideUp.classList.toggle('SlideUpOpacity', window.scrollY > 0);
-});
-
 function text() {
   const Text = document.querySelectorAll(".linkMenu ul li");
   const bars = document.querySelector(".linkMenu .fa-bars");
@@ -411,3 +402,36 @@ function setURL(){
 
     })
   })
+
+let elementsY = document.querySelectorAll(".animasi-y");
+let elementsX = document.querySelectorAll(".animasi-x");
+let elementsMinusX = document.querySelectorAll(".animasi-minus-x");
+
+async function muncul(elements){
+  for (let i = 0; i < elements.length; i++) {
+
+    let tinggiLayar = window.innerHeight;
+    let jarakAtasElemen = elements[i].getBoundingClientRect().top;
+    let ukuranScroll = 150;
+    
+    if (jarakAtasElemen < tinggiLayar - ukuranScroll) {
+      elements[i].classList.add("tampil");
+    }
+    // else {
+    //   elements[i].classList.remove("tampil");
+    // }
+
+  }
+}
+
+window.addEventListener("scroll", function() {
+  muncul(elementsY)
+  muncul(elementsX)
+  muncul(elementsMinusX)
+
+  const Navbar = document.querySelector(".navbarMenu");
+  Navbar.classList.toggle("PassScroll", window.scrollY > 0);
+
+  const SlideUp = document.querySelector(".WrapperCircleUp");
+  SlideUp.classList.toggle('SlideUpOpacity', window.scrollY > 0);
+});
