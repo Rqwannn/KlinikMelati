@@ -31,8 +31,8 @@
                 <li><a href="#TentangNav" class="tentangBtn page-scroll">Tentang</a></li>
                 <li><a href="#FasilitasNav" class="page-scroll">Fasilitas</a></li>
                 <li><a href="#DokterNav" class="page-scroll">Dokter</a></li>
-                <li><a href="#KlinikNav" class="page-scroll">Klinik</a></li>
-                <li><a href="#footer">Kontak</a></li>
+                <li><a href="#BuatJanji" class="page-scroll">Klinik</a></li>
+                <li><a href="#KlinikNav">Kontak</a></li>
             </ul>
         </div>
 
@@ -46,8 +46,8 @@
             <li><a href="#TentangNav" class="tentangBtn page-scroll">Tentang</a></li>
             <li><a href="#FasilitasNav" class="page-scroll">Fasilitas</a></li>
             <li><a href="#DokterNav" class="page-scroll">Dokter</a></li>
-            <li><a href="#KlinikNav" class="page-scroll">Klinik</a></li>
-            <li><a href="#footer">Kontak</a></li>
+            <li><a href="#BuatJanji" class="page-scroll">Klinik</a></li>
+            <li><a href="#KlinikNav">Kontak</a></li>
         </ul>
     </div>
 
@@ -211,7 +211,7 @@
 
     </div>
 
-    <div class="section" style="display: none;">
+    <div class="section">
         <div class="row">
             <div class="col-md-6">
                 <div class="LeftSectionFour">
@@ -295,7 +295,7 @@
     </div>
 
     <div class="section">
-        <div class="container">
+        <div id="BuatJanji" class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="cardSectionSix">

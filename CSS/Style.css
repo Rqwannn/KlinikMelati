@@ -15,6 +15,20 @@ body {
   --teal: #1da1f2;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 10px;
+}
+
 .transisi-delay-1 {
   transition-delay: 0.1s;
 }

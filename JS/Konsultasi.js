@@ -146,5 +146,5 @@ function InsertData(){
 }
 
 function BackHome(){
-    document.location.href = "../Main.php";
+    document.location.href = "../index.php";
 }
