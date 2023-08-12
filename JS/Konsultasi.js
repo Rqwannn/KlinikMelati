@@ -2,6 +2,8 @@ const btnScroll = document.querySelector('.scroll-right');
 const btnScrollIcon = document.querySelector('.scroll-right i');
 const CardMedia = document.querySelector('.card-social-media');
 
+const config = new Config().BackendURL();
+
 btnScroll.addEventListener("click", function(){
     if(CardMedia.style.left == "100%"){
         CardMedia.style.left = "0%";
@@ -97,7 +99,7 @@ function InsertData(){
                         }
 
                     $.ajax({
-                        url : "http://localhost/KlinikMelati/App/Api/InputKonsultasi.php",
+                        url : `${config}/InputKonsultasi.php`,
                         type : "POST",
                         dataType : "JSON",
                         data : {

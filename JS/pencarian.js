@@ -1,5 +1,6 @@
 const title = document.getElementById("title");
 const formatter = new FormatMoney();
+const configs = new Config().BackendURL();
 
 function getURL(){
     return new URLSearchParams(window.location.search).get("obat");
@@ -25,7 +26,7 @@ function callDataToServer(){
     obat = getURL();
 
     $.ajax({
-        url : `http://localhost/KlinikMelati/App/Api/cariObat.php`,
+        url : `${configs}/cariObat.php`,
         type : "GET",
         dataType : "JSON",
         data : {

@@ -2,6 +2,8 @@
 
 // let Ready = skrollr.init();
 
+const config = new Config().BackendURL();
+
 window.onload = function () {
   this.setTimeout(text, 200);
   this.setTimeout(Title, 200);
@@ -252,7 +254,7 @@ function setURL(){
 
   function setAllDoc() {
     $.ajax({
-      url : "http://localhost/KlinikMelati/App/Api/getAllDokter.php",
+      url : `${config}/getAllDokter.php`,
       type : "GET",
       dataType : "JSON",
       success : function (result){
@@ -298,7 +300,7 @@ function setURL(){
 
   function setSingleDoc(data){
     $.ajax({
-      url : "http://localhost/KlinikMelati/App/Api/getSingleDokter.php",
+      url : `${config}/getSingleDokter.php`,
       type : "GET",
       dataType : "JSON",
       data : {
