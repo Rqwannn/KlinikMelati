@@ -86,6 +86,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  top: 0;
+  left: 0;
   height: 70px;
   position: fixed;
   padding: 0 35px;
@@ -271,7 +273,7 @@ body {
   color: gray;
 }
 
-.leftSideHeader button {
+.wrapperInputType button {
   padding: 10px 50px;
   color: #fff;
   border-radius: 50px;
@@ -453,7 +455,8 @@ body {
   font-size: 50px;
 }
 
-.cardFasilitas {
+.cardFasilitas,
+.cardObat {
   width: 265px;
   border-radius: 5px;
   box-shadow: 0 4px 15px 0px rgba(70, 69, 69, 0.12),
@@ -467,28 +470,33 @@ body {
   margin-top: 10vh;
 }
 
-.imgTopFasilitas img {
+.imgTopFasilitas img,
+.imgTopObat img {
   width: 265px;
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 25%;
 }
 
-.contentFasilitas {
+.contentFasilitas,
+.contentObat {
   padding: 0 20px;
 }
 
-.contentFasilitas h4 {
+.contentFasilitas h4,
+.contentObat h4 {
   font-size: 20px;
 }
 
-.contentFasilitas p {
+.contentFasilitas p,
+.contentObat p {
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 27px;
 }
 
-.btn-Fasilitas {
+.btn-Fasilitas,
+.btn-Obat {
   border-radius: 0;
   padding: 10px;
   border-top-left-radius: 20px;

@@ -1,0 +1,77 @@
+@import url(Style.css);
+
+.logoMenu h5{
+    cursor: pointer;
+}
+
+.headerPencarian{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background: gray;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.contentPencarian{
+    width: 100%;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.content_title{
+    display: flex;
+    align-items: center;
+}
+
+.contentPencarian i{
+    font-size: 30px;
+    color: var(--green);
+    cursor: pointer;
+}
+
+.contentPencarian h1{
+    margin: 0;
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--green);
+    margin-left: 14px;
+}
+
+#input_pencarian{
+    width: 95%;
+}
+  
+#input_pencarian input {
+    padding: 12px;
+}
+
+#input_pencarian button {
+    padding: 7px 35px;
+}
+
+.content-card{
+    width: 100%;
+    max-height: 700px;
+    padding: 14px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.cardObat{
+    width: 100%;
+    margin: 0;
+}
+
+.contentObat h5{
+    font-size: 14px;
+}
+
+.imgTopObat img{
+    width: 100%;
+}

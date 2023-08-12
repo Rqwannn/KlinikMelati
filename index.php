@@ -68,9 +68,9 @@
                     <h1 class="fw-bold">Perawatan Medis Online</h1>
                     <h5>Dapatkan diagnosis, rencana perawatan, dan resep dari penyedia asli perawatan medis berkualitas.</h5>
                     <div class="wrapperInputType mt-4">
-                        <label for="TextHolder">Cari Dokter Atau Obat</label>
+                        <label for="TextHolder">Cari Obat...</label>
                         <input type="text" id="TextHolder">
-                        <button type="submit">Cari</button>
+                        <button type="submit" onclick="CariObat()">Cari</button>
                     </div>
                 </div>
             </div>

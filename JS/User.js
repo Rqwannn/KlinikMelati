@@ -11,14 +11,17 @@ function text() {
   const Text = document.querySelectorAll(".linkMenu ul li");
   const bars = document.querySelector(".linkMenu .fa-bars");
 
-  bars.style.opacity = "1";
-  bars.style.margin = "0px 0px 0px 45px";
-
-  let i;
-  for (i = 0; i < Text.length; i++) {
-    Text[i].style.opacity = "1";
-    Text[i].style.margin = "0px 0px 0px 45px";
+  if(Text && bars){
+    bars.style.opacity = "1";
+    bars.style.margin = "0px 0px 0px 45px";
+  
+    let i;
+    for (i = 0; i < Text.length; i++) {
+      Text[i].style.opacity = "1";
+      Text[i].style.margin = "0px 0px 0px 45px";
+    }
   }
+  
 }
 
 function openMenu(){
@@ -98,10 +101,13 @@ btnTextInput.addEventListener("click", function () {
 });
 
 btnTextInput.addEventListener("mouseout", function () {
-  TextValue.style.transition = "0.5s";
-  TextValue.style.fontSize = "15px";
-  TextValue.style.color = "gray";
-  TextValue.style.top = "50%";
+  if(btnTextInput.value == ""){
+    TextValue.style.transition = "0.5s";
+    TextValue.style.fontSize = "15px";
+    TextValue.style.color = "gray";
+    TextValue.style.top = "50%";
+  }
+
 });
 
 const WrapperVidio = document.querySelector(".cardVidio");
@@ -238,7 +244,7 @@ $(".LeftSectionThree2").owlCarousel({
 });
 
 function setURL(){
-  document.location.href = "Konsultasi/Konsultasi.php";
+  document.location.href = "Konsultasi/Konsultasi";
 }
 
   const getByOne = document.querySelectorAll(".getByOne");
@@ -406,3 +412,9 @@ window.addEventListener("scroll", function() {
   const SlideUp = document.querySelector(".WrapperCircleUp");
   SlideUp.classList.toggle('SlideUpOpacity', window.scrollY > 0);
 });
+
+function CariObat(){
+  const inputObat = document.getElementById("TextHolder");
+
+  document.location.href = `pencarian_obat?obat=${inputObat.value}`
+}
