@@ -228,18 +228,6 @@ setInterval((result) => {
 
 }, 2500);
 
-// $(".WrapperSlideDown2").owlCarousel({
-//     loop: true,
-//     autoplay: true,
-//     items: 1,
-//     stagePadding: 50,
-//     autoplayTimeout:2000,
-//     nav: true,
-//     autoplayHoverPause: true,
-//     animateOut: 'slideOutUp',
-//     animateIn: 'slideInUp'
-//   });
-
 $(".LeftSectionThree2").owlCarousel({
   margin: 14,
   loop: true,
@@ -252,23 +240,6 @@ $(".LeftSectionThree2").owlCarousel({
 function setURL(){
   document.location.href = "Konsultasi/Konsultasi.php";
 }
-
-  // (function () {
-     
-  //     $('a.page-scroll').click(function() {
-  //         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-  //           var target = $(this.hash);
-  //           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-  //           if (target.length) {
-  //             $('html,body').animate({
-  //               scrollTop: target.offset().top - 40
-  //             }, 200);
-  //             return false;
-  //           }
-  //         }
-  //       });
-  
-  // }());
 
   const getByOne = document.querySelectorAll(".getByOne");
   const WrapperDokter = document.querySelector(".WrapperDokter");
