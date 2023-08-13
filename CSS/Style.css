@@ -9,6 +9,12 @@ body {
   margin-top: 20vh;
 }
 
+.custom-center-dekstop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 :root {
   --green: #2ab564;
   --red: #f5365c;
@@ -155,6 +161,7 @@ body {
   font-size: 18px;
   color: #000;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .linkMenu ul li {
@@ -193,6 +200,7 @@ body {
 }
 
 .linkMenuMobile.mobile{
+  /* overflow-y: unset; */
   display: flex;
 }
 
@@ -200,7 +208,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  left: 100vw;
+  left: 110vw;
   top: 0;
   z-index: 110;
   width: 100vw;
@@ -211,6 +219,7 @@ body {
 
 .closeMenu i{
   position: absolute;
+  cursor: pointer;
   left: 50px;
   top: 50px;
   font-size: 35px;
@@ -530,7 +539,6 @@ body {
 
 .LeftSectionFour {
   position: relative;
-  transform: translateX(-3.5vw);
   width: 650px;
   height: 650px;
   background: transparent;
@@ -591,10 +599,6 @@ body {
   100% {
     transform: translate(-50%, -50%) rotate(405deg);
   }
-}
-
-.RightSectionFour {
-  margin-top: 20vh;
 }
 
 .RightSectionFour p {
@@ -836,6 +840,7 @@ body {
 .imgInfoDokter img {
   width: 100px;
   height: 100px;
+  object-fit: cover;
   border-radius: 50%;
   border-top-left-radius: 0;
 }

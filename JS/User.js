@@ -33,7 +33,7 @@ function openMenu(){
 
 function closeMenu(){
   let listMenu = document.querySelector(".linkMenuMobile");
-  listMenu.style.left = "100vw"
+  listMenu.style.left = "110vw"
 }
 
 function Title() {
@@ -258,12 +258,17 @@ function setURL(){
       type : "GET",
       dataType : "JSON",
       success : function (result){
+        
         const setValue =  result.map((value) => {
+          // const gambar = atob(value.gambar);
+          
+          const img = 'data:image/png;base64,' + value.gambar;
+
           return `<div class="col-md-6 wrapperCol">
                 <div class="CardInfoDokter mb-3">
                     <div class="WrappetTopDokter d-flex">
                         <div class="imgInfoDokter">
-                            <img src="img/${value.gambar}" alt="">
+                            <img src="${img}" alt="">
                         </div>
                         <div class="BiodataDokter">
                             <h5>${value.nama}</h5>
@@ -308,11 +313,14 @@ function setURL(){
       },
       success : function(result){
         const setValue =  result.map((value) => {
+          
+          const img = 'data:image/png;base64,' + value.gambar;
+
           return `<div class="col-md-6 wrapperCol">
                 <div class="CardInfoDokter mb-3">
                     <div class="WrappetTopDokter d-flex">
                         <div class="imgInfoDokter">
-                            <img src="img/${value.gambar}" alt="">
+                            <img src="img/${img}" alt="">
                         </div>
                         <div class="BiodataDokter">
                             <h5>${value.nama}</h5>

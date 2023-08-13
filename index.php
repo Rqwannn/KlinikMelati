@@ -211,9 +211,10 @@
 
     </div>
 
-    <div class="section">
+    <div class="section container" id="sectionFourEdited-margin">
         <div class="row">
-            <div class="col-md-6">
+
+            <div class="col-lg-6 dekstop" style="transform: translateX(-3.5vw);">
                 <div class="LeftSectionFour">
                     <div class="iconKimia">
                         <i class="fas fa-prescription-bottle-alt"></i>
@@ -238,12 +239,54 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            
+            <div class="col-lg-12 mobile sectionFourEdited">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="RightSectionFour">
+                            <h4 class="animasi-minus-x">Para dokter di Online Clinic semuanya terdaftar di Ikatan Dokter Indonesia.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 sectionFourEdited-circle">
+
+                        <div class="LeftSectionFour">
+                            <div class="iconKimia">
+                                <i class="fas fa-prescription-bottle-alt"></i>
+                            </div>
+                            <div class="iconHati">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="iconMedkit">
+                                <i class="fas fa-briefcase-medical"></i>
+                            </div>
+                            <div class="iconOrang">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <div class="iconDetakJantung">
+                                <i class="fas fa-stethoscope"></i>
+                            </div>
+                            <div class="iconSuntikan">
+                                <i class="fas fa-syringe"></i>
+                            </div>
+                            <div class="iconVirus">
+                                <i class="fas fa-shield-virus"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 custom-center-dekstop"> 
                 <div class="RightSectionFour">
-                    <h4 class="animasi-x">Para dokter di Online Clinic semuanya terdaftar di dewan medis umum.</h4>
-                    <p class="animasi-x mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h4 class="animasi-x dekstop">Para dokter di Online Clinic semuanya terdaftar di Ikatan Dokter Indonesia.</h4>
+                    <p class="animasi-x mt-4">Medical error adalah masalah dalam dunia kedokteran, tak jarang dokter
+                        melakukan kesalahan diagnosis yang menyebabkan keterlambatan
+                        penanganan. Di Clinic Melati, medical error sanga minim karena seluruh
+                        dokter di clinic melati adalah dokter berkualifikasidan terdaftar di
+                        Ikatan Dokter Indonesia.</p>
                     <div class="slideDownSectionFour mt-4">
                         <div class="WrapperSlideDown">
                             <div class="d-flex Slide-1" data-id="Slide-1">
@@ -265,6 +308,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     
@@ -303,9 +347,10 @@
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-8">
                                     <h1 class="animasi-minus-x">Siap Memulai ?</h1>
-                                    <h5 class="animasi-minus-x transisi-delay-1 mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
+                                    <h5 class="animasi-minus-x transisi-delay-1 mt-4">Tidak mau antri saat berkonsultasi di klinik? Buat janji terjadwal
+                                        dengan dokter kami langsung dari aplikasi Clinic Melati,
+                                        Clinic melati menyediakan layanan untuk berkonsultasi kepada
+                                        dokter spesialis berkualifikasi tinggi. </h5>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-4 btnSectionSix">
                                     <div class="btnSectionSix animasi-x">
@@ -350,13 +395,13 @@
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
                                         <i class="fas fa-envelope animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Hello@Titan.com</div>
+                                        <div class="animasi-minus-x">pusat@clinicmelati.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
                                         <i class="fas fa-map-marker-alt animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <div class="animasi-minus-x">Jalan Ahmad Yani - Kota Bekasi</div>
                                     </div>
                                 </div>
                             </div>
@@ -374,13 +419,13 @@
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
                                         <i class="fas fa-envelope animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Hello@Titan.com</div>
+                                        <div class="animasi-minus-x">gigi@clinicmelati.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
                                         <i class="fas fa-map-marker-alt animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <div class="animasi-minus-x">Jalan Margonda Raya - Depok</div>
                                     </div>
                                 </div>
                             </div>
@@ -398,13 +443,13 @@
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
                                         <i class="fas fa-envelope animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Hello@Titan.com</div>
+                                        <div class="animasi-minus-x">ibudanbayi@clinicmelati.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
                                         <i class="fas fa-map-marker-alt animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <div class="animasi-minus-x">Jalan Medan Merdeka Selatan - Jakarta Pusat</div>
                                     </div>
                                 </div>
                             </div>
@@ -422,13 +467,13 @@
                                 <div class="col-md-6">
                                     <div class="flexFaviable d-flex align-items-center">
                                         <i class="fas fa-envelope animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Hello@Titan.com</div>
+                                        <div class="animasi-minus-x">orthopedic@clinicmelati.com</div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="flexFaviable d-flex align-items-center mt-4">
                                         <i class="fas fa-map-marker-alt animasi-minus-x"></i>
-                                        <div class="animasi-minus-x">Jalan Lorem Ipsum Block G - Perum Curug</div>
+                                        <div class="animasi-minus-x">Jalan Raya Bogor - Bogor</div>
                                     </div>
                                 </div>
                             </div>
@@ -458,7 +503,7 @@
                         <h5 style="margin: 0 10px;">|</h5>
                         <h5>+123 456 7891</h5>
                         <h5 style="margin: 0 10px;">|</h5>
-                        <h5>Hello@Titan.com</h5>
+                        <h5>melati@clinicmelati.com</h5>
                     </div>
                     <div class="wrapper-footer d-flex justify-content-center mt-3">
                         <div class="wrapper-icon">

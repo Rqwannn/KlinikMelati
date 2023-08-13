@@ -5,6 +5,10 @@
         margin-top: 5vh;
     }
 
+    .custom-center-dekstop{
+        display: initial;
+      }
+
     .disable-in-mobile{
         display: none;
     }
@@ -147,6 +151,33 @@
     .btn-Fasilitas {
         font-size: 12px;
     }
+
+    .RightSectionFour h4 {
+        font-size: 22px;
+    }
+
+    .sectionFourEdited-circle{
+        display: none;
+    }
+
+    .sectionFourEdited{
+        padding-top: 5vh;
+    }
+
+    #sectionFourEdited-margin{
+        margin: 0;
+    }
+
+    .LeftSectionFour {
+        display: none;
+    }
+
+    .slideDownSectionFour p {
+        margin: 5px;
+        font-size: 11px;
+        padding: 1px 15px;
+        border-radius: 20px;
+      }
 
     .headerSectionFive h1{
         font-size: 20px;
@@ -367,6 +398,109 @@
         width: 100%;
         margin-left: 14px;
         margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .RightSectionFour h4 {
+        font-size: 22px;
+        width: 85%;
+    }
+
+    #sectionFourEdited-margin{
+        margin-top: 0;
+    }
+
+    .sectionFourEdited{
+        overflow: hidden; 
+        padding: 7vh 0;
+    }
+
+    .sectionFourEdited-circle{
+        transform:translateX(-3vw)
+    }
+
+    #sectionFour{
+        margin: 0;
+    }
+
+    .LeftSectionFour {
+        width: 500px;
+        height: 500px;
+      }
+      
+    .LeftSectionFour::before {
+        font-size: 30px;
+        width: 50%;
+        height: 50%;
+    }
+
+
+    .iconKimia,
+    .iconMedkit {
+        width: 80px;
+        height: 80px;
+    }
+
+    .iconKimia i,
+    .iconMedkit i,
+    .iconOrang i,
+    .iconHati i,
+    .iconDetakJantung i,
+    .iconSuntikan i,
+    .iconVirus i {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .iconOrang {
+        width: 35px;
+        height: 35px;
+    }
+
+    .iconVirus {
+        width: 55px;
+        height: 55px;
+    }
+
+    .iconHati {
+        width: 35px;
+        height: 35px;
+    }
+
+    .iconDetakJantung,
+    .iconSuntikan {
+        width: 85px;
+        height: 85px;
+    }
+
+    .iconSuntikan {
+        width: 55px;
+        height: 55px;
+    }
+
+    .iconOrang i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+      }
+      
+    .iconSuntikan i,
+    .iconVirus i {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .iconHati i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    .iconDetakJantung i {
+        width: 75px;
+        height: 75px;
         font-size: 30px;
     }
 

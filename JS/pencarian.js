@@ -34,22 +34,25 @@ function callDataToServer(){
         },
         success : function(result){
             const setValue =  result.map((value) => {
-            const harga = formatter.toRupiah(value.harga_obat)
-            return `<div class="col-md-3">
-                        <div class="cardObat">
-                            <div class="imgTopObat">
-                                <img src="img/DokterOperasi.jpg" alt="">
+            
+                const harga = formatter.toRupiah(value.harga_obat)
+                const img = 'data:image/png;base64,' + value.gambar_obat;
+
+                return `<div class="col-md-3 mb-3">
+                            <div class="cardObat">
+                                <div class="imgTopObat">
+                                    <img src="${img}" alt="">
+                                </div>
+                                <div class="contentObat my-4">
+                                    <h4>${value.nama_obat} - ${value.jenis_obat}</h4>
+                                    <h5>${harga}</h5>
+                                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                                <div class="footerObat d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-Obat">${value.nama_penyakit}</button>
+                                </div>
                             </div>
-                            <div class="contentObat my-4">
-                                <h4>${value.nama_obat} - ${value.jenis_obat}</h4>
-                                <h5>${harga}</h5>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                            </div>
-                            <div class="footerObat d-flex justify-content-end">
-                                <button type="submit" class="btn btn-Obat">${value.nama_penyakit}</button>
-                            </div>
-                        </div>
-                    </div>`;
+                        </div>`;
             })
 
             const pisahValue = setValue.join(" ");
