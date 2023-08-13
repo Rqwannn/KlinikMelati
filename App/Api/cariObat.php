@@ -10,6 +10,7 @@ $result = [];
 
 foreach ($query as $item) {
     $result[] = [
+        "id_obat" => $item["id_obat"],
         "nama_obat" => $item["nama_obat"],
         "nama_penyakit" => $item["nama_penyakit"],
         "jenis_obat" => $item["jenis_obat"],

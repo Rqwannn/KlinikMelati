@@ -76,3 +76,11 @@
     width: 100%;
     object-fit: cover;
 }
+
+.pembatas-text{
+    overflow: hidden; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    text-overflow: ellipsis;
+}

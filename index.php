@@ -148,11 +148,26 @@
                 <div class="LeftSectionThree2 owl-carousel owl-theme">
                     <div class="cardFasilitas">
                         <div class="imgTopFasilitas">
-                            <img src="img/DokterOperasi.jpg" alt="">
+                            <img src="img/radiologi.png" alt="">
                         </div>
                         <div class="contentFasilitas my-4">
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <h4>Radiologi</h4>
+                            <p>
+                                Ilmu medis yang menggunakan teknologi gambaran medis, seperti sinar-X, MRI (Magnetic Resonance Imaging), CT (Computed Tomography), dan ultrasonografi, untuk mendeteksi, mendiagnosis, dan memantau berbagai kondisi penyakit serta gangguan kesehatan dalam tubuh manusia.
+                            </p>
+                        </div>
+                        <div class="footerFasilitas d-flex justify-content-end">
+                            <button type="submit" class="btn btn-Fasilitas">Lihat Detail</button>
+                        </div>
+                    </div>
+
+                    <div class="cardFasilitas">
+                        <div class="imgTopFasilitas">
+                            <img src="img/lab_darah.jpg" alt="">
+                        </div>
+                        <div class="contentFasilitas my-4">
+                            <h4>Laboratorium Darah</h4>
+                            <p>Fasilitas medis yang bertujuan untuk melakukan berbagai jenis tes dan analisis pada sampel darah manusia. Ini memberikan informasi penting kepada dokter untuk mendiagnosis penyakit, memantau kondisi kesehatan, dan mengelola perawatan pasien.</p>
                         </div>
                         <div class="footerFasilitas d-flex justify-content-end">
                             <button type="submit" class="btn btn-Fasilitas">Lihat Detail</button>
@@ -164,8 +179,8 @@
                             <img src="img/DokterOperasi.jpg" alt="">
                         </div>
                         <div class="contentFasilitas my-4">
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <h4>Ruang Operasi</h4>
+                            <p>Ruang Bedah atau Ruang Operasi adalah fasilitas medis di mana prosedur bedah dilakukan oleh tim medis terlatih. Ini adalah lingkungan yang sangat terkontrol dan steril yang dirancang khusus untuk menjalankan berbagai jenis operasi medis.</p>
                         </div>
                         <div class="footerFasilitas d-flex justify-content-end">
                             <button type="submit" class="btn btn-Fasilitas">Lihat Detail</button>
@@ -174,24 +189,11 @@
 
                     <div class="cardFasilitas">
                         <div class="imgTopFasilitas">
-                            <img src="img/DokterOperasi.jpg" alt="">
+                            <img src="img/poliklinik.png" alt="">
                         </div>
                         <div class="contentFasilitas my-4">
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        </div>
-                        <div class="footerFasilitas d-flex justify-content-end">
-                            <button type="submit" class="btn btn-Fasilitas">Lihat Detail</button>
-                        </div>
-                    </div>
-
-                    <div class="cardFasilitas">
-                        <div class="imgTopFasilitas">
-                            <img src="img/DokterOperasi.jpg" alt="">
-                        </div>
-                        <div class="contentFasilitas my-4">
-                            <h4>Lorem Ipsum</h4>
-                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <h4>Poli Klinik</h4>
+                            <p>Ruang poliklinik adalah area tempat fasilitas kesehatan, seperti rumah sakit, klinik kesehatan atau pusat kesehatan, di mana pasien datang untuk konsultasi medis, pemeriksaan, diagnosa, dan pengobatan ringan kepada dokter tanpa memerlukan rawat inap</p>
                         </div>
                         <div class="footerFasilitas d-flex justify-content-end">
                             <button type="submit" class="btn btn-Fasilitas">Lihat Detail</button>

@@ -482,14 +482,23 @@ body {
 .imgTopFasilitas img,
 .imgTopObat img {
   width: 265px;
+  object-fit: cover;
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 25%;
 }
 
+.imgTopFasilitas img{
+  height: 160px;
+}
+
 .contentFasilitas,
 .contentObat {
   padding: 0 20px;
+}
+
+.contentFasilitas{
+  padding: 0 14px;
 }
 
 .contentFasilitas h4,
