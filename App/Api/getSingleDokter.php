@@ -10,7 +10,12 @@ $result = [];
 
 foreach ($query as $item) {
     if ($item["keahlian"] == $Keahlian) {
-        $result[] = $item;
+        $result[] = [
+            "nama" => $item["nama"],
+            "umur" => $item["umur"],
+            "keahlian" => $item["keahlian"],
+            "gambar" => base64_encode($item["gambar"]),
+        ];
     }
 }
 

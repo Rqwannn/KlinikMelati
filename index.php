@@ -78,7 +78,7 @@
                 <div class="rightSideHeader">
                     <div class="cardVidio">
                         <video autoplay loop muted plays-inline id="Vidio">
-                            <source src="img/maldive.mp4" type="video/mp4">
+                            <source src="img/health_vidio.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>

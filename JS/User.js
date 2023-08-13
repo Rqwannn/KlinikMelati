@@ -320,7 +320,7 @@ function setURL(){
                 <div class="CardInfoDokter mb-3">
                     <div class="WrappetTopDokter d-flex">
                         <div class="imgInfoDokter">
-                            <img src="img/${img}" alt="">
+                            <img src="${img}" alt="">
                         </div>
                         <div class="BiodataDokter">
                             <h5>${value.nama}</h5>
